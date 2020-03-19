@@ -15,8 +15,6 @@ steps:
         from_secret: docker-user
       password:
         from_secret: docker-pw
-      repo: localhost:5000/drone/vue
-      auto_tag: true
-      registry: localhost:5000
+      repo: drone/vue
+      tags: latest
       dockerfile: Dockerfile
-      insecure: true
