@@ -19,3 +19,4 @@ steps:
       auto_tag: true
       registry: localhost:5000
       dockerfile: Dockerfile
+      insecure: true
