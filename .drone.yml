@@ -15,7 +15,7 @@ steps:
         from_secret: docker-user
       password:
         from_secret: docker-pw
-      repo: magic3657/drone/vue
-      registry: magic3657
+      repo: localhost:5000/drone/vue
+      registry: localhost
       dockerfile: Dockerfile
       insecure: true
