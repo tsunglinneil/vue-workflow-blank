@@ -11,10 +11,6 @@ steps:
   - name: docker
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker-user
-      password:
-        from_secret: docker-pw
       repo: localhost:5000/drone/vue
       registry: localhost
       dockerfile: Dockerfile
